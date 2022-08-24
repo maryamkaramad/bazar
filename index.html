@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,12 +7,29 @@
     <title>بازار</title>
 
     <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/d8b16f7d29.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="header">
       <div class="container">
         <div class="header__tools">
-          <div class="icon"></div>
+          <div class="icon burgerMenu__toggle">
+            <svg
+              width="24"
+              height="24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class=""
+            >
+              <path
+                d="M3.643 6.273h16.714A.631.631 0 0021 5.636.631.631 0 0020.357 5H3.643A.631.631 0 003 5.636c0 .358.281.637.643.637zm16.714 5.09H3.643A.631.631 0 003 12c0 .358.281.636.643.636h16.714A.631.631 0 0021 12a.631.631 0 00-.643-.636zm0 6.364H3.643a.631.631 0 00-.643.637c0 .358.281.636.643.636h16.714a.631.631 0 00.643-.636.631.631 0 00-.643-.637z"
+                fill="#20222A"
+              ></path>
+            </svg>
+          </div>
           <div class="input">
             <input
               type="search"
@@ -20,15 +37,188 @@
               id="search"
               placeholder="جست و جو در بازار"
             />
+            <samp class="input__icon">
+              <svg
+                width="16"
+                height="16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="SearchInput__icon"
+              >
+                <path
+                  d="M13.877 13.367l-3.303-3.328a4.828 4.828 0 001.171-3.164A4.87 4.87 0 006.873 2 4.87 4.87 0 002 6.875a4.87 4.87 0 008.035 3.703l3.327 3.305c.07.07.164.117.257.117a.376.376 0 00.258-.117.332.332 0 000-.516zM6.873 11A4.13 4.13 0 012.75 6.875 4.13 4.13 0 016.873 2.75a4.13 4.13 0 014.123 4.125A4.13 4.13 0 016.873 11z"
+                  fill="#717485"
+                ></path>
+              </svg>
+            </samp>
           </div>
-          <div class="icon"></div>
+          <div class="icon">
+            <svg
+              width="16"
+              height="16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class=""
+            >
+              <path
+                d="M8 8c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z"
+                fill="#9da0af"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="burgerMenu">
+          <div class="logo">
+            <a href="../bazar2/bazaar-logo.svg"
+              ><svg
+                width="80"
+                height="100"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                id="Layer_1"
+                x="0"
+                y="0"
+                version="1.1"
+                viewBox="0 0 636.36 306.97"
+                xml:space="preserve"
+              >
+                <defs />
+                <path
+                  d="M169.1 199.36a15.37 15.37 0 01-15.37-15.37v-76.86a15.37 15.37 0 1130.74 0v76.86c0 8.48-6.88 15.37-15.37 15.37zM115.3 214.73H76.86a15.37 15.37 0 110-30.74h30.75v-46.12a15.37 15.37 0 1130.74 0v53.81a23.07 23.07 0 01-23.05 23.05z"
+                />
+                <path
+                  d="M207.46 245.48H169.1a15.37 15.37 0 110-30.74h30.75v-46.12a15.37 15.37 0 1130.74 0v53.73a23.15 23.15 0 01-23.13 23.13zM307.46 214.73h-38.23a23.28 23.28 0 01-23.26-23.26v-68.98a15.37 15.37 0 1130.74 0v61.49h30.75a15.37 15.37 0 110 30.75z"
+                />
+                <circle cx="215.22" cy="122.49" r="15.37" class="st0" />
+                <circle cx="261.34" cy="245.48" r="15.37" class="st0" />
+                <g>
+                  <defs>
+                    <path
+                      id="SVGID_1_"
+                      d="M573.19 105.87l-.02-.02c-3.4-2.44-10.01-5.77-22.7-8.76-3.8-.9-8.14-1.76-13.11-2.56a301.76 301.76 0 00-21.88-2.65l-1.17-.1c-1.7-4.01-3.45-8.11-5.32-12.43-.99-2.31-1.94-4.64-2.93-7.1l-.36-.89c-3.67-9.07-7.53-18.38-14.22-26.65-7.42-9.18-17.16-14.23-27.41-14.23s-19.99 5.05-27.41 14.23c-6.68 8.26-10.55 17.57-14.22 26.63l-.37.91c-1 2.47-1.94 4.8-2.93 7.1-1.86 4.32-3.62 8.42-5.32 12.43l-1.17.1c-8.4.74-15.65 1.65-21.92 2.66-4.95.79-9.28 1.66-13.07 2.55-12.69 2.99-19.29 6.32-22.7 8.76l-.06.04a4.1 4.1 0 00-1.65 3.87l1.1 8.18c1.67 12.25 3.45 26.63 6.39 41.45 2.22 11.2 5.09 22.64 9.07 33.61 1.56 4.31 3.3 8.55 5.23 12.67a99.5 99.5 0 0066.23 52.56 99.3 99.3 0 0022.77 2.62c7.8 0 15.39-.9 22.66-2.6a99.51 99.51 0 0067-53.95c1.5-3.29 2.87-6.65 4.14-10.06 9.03-24.3 12.51-51.1 15.38-72.39l1.6-12.14a4.02 4.02 0 00-1.63-3.84zM464.07 89.9c-10.31 0-19.68.19-28.19.53l1.4-3.26c1.08-2.51 2.11-5.06 3.11-7.52 2.31-5.7 4.52-11.19 7.3-16.09a48.12 48.12 0 014.32-6.43c2.08-2.58 6.42-6.9 12.05-6.9 5.63 0 9.97 4.32 12.05 6.9a46.88 46.88 0 014.32 6.43c2.78 4.89 5 10.38 7.3 16.08.99 2.46 2.03 5.01 3.11 7.52l1.4 3.26c-8.49-.33-17.86-.52-28.17-.52z"
+                    />
+                  </defs>
+                  <clipPath id="SVGID_2_">
+                    <use overflow="visible" xlink:href="#SVGID_1_" />
+                  </clipPath>
+                  <g clip-path="url(#SVGID_2_)">
+                    <defs>
+                      <path
+                        id="SVGID_3_"
+                        d="M348.24 25.47h231.64v240.37H348.24z"
+                      />
+                    </defs>
+                    <clipPath id="SVGID_4_">
+                      <use overflow="visible" xlink:href="#SVGID_3_" />
+                    </clipPath>
+                    <g clip-path="url(#SVGID_4_)">
+                      <image
+                        width="484"
+                        height="502"
+                        overflow="visible"
+                        transform="matrix(.48 0 0 .48 347.82 25.01)"
+                        xlink:href="data:image/jpeg;base64,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"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <ul class="burgerMenu__menu">
+            <li class="burgerMrnu__item">
+              <a href="http://">توسعه دهندگان بازار</a>
+            </li>
+            <li class="burgerMrnu__item">
+              <a href="http://">فرصت های شغلی</a>
+            </li>
+            <li class="burgerMrnu__item">
+              <a href="http://">نشان دریافت از بازار</a>
+            </li>
+            <li class="burgerMrnu__item">
+              <a href="http://">شرایط استفاده</a>
+            </li>
+            <li class="burgerMrnu__item"><a href="http://">حریم خصوصی</a></li>
+            <li class="burgerMrnu__item"><a href="http://">پشتیبانی</a></li>
+            <li class="burgerMrnu__item">
+              <a href="http://">تبلیغات در بازار</a>
+            </li>
+            <li class="burgerMrnu__item"><a href="http://">بلاگ بازار</a></li>
+            <li class="burgerMrnu__item">
+              <a href="http://">خبرها و بیانیه های بازار</a>
+            </li>
+            <li class="burgerMrnu__item">
+              <a href="http://">بلاگ فنی بازار</a>
+            </li>
+            <li class="burgerMrnu__item"><a href="http://">درباره ما</a></li>
+            <li class="burgerMrnu__item"><a href="http://">تماس با ما</a></li>
+          </ul>
+          <div class="burgerMenu__footer">
+            <div class="burgerMenu__icon">
+              <svg
+                width="20"
+                height="20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class=""
+              >
+                <path
+                  d="M4.375 2.188a2.188 2.188 0 11-4.375 0 2.188 2.188 0 014.375 0zM4.375 20V5.625H0V20h4.375zM15.002 5.625c-2.502 0-3.196.82-3.752 1.875V5.625H6.875V20h4.375v-8.125c0-1.25 0-2.5 2.188-2.5 2.187 0 2.187 1.25 2.187 2.5V20H20v-8.125c0-3.75-.625-6.25-4.998-6.25z"
+                  fill="#616161"
+                ></path>
+              </svg>
+            </div>
+            <div class="burgerMenu__icon">
+              <svg
+                width="20"
+                height="20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class=""
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10 4.864a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0 8.468a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666z"
+                  fill="#616161"
+                ></path>
+                <path
+                  d="M15.338 5.862a1.2 1.2 0 100-2.4 1.2 1.2 0 000 2.4z"
+                  fill="#616161"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10 0C7.284 0 6.944.012 5.877.06 4.813.11 4.086.278 3.45.525a4.902 4.902 0 00-1.772 1.153A4.902 4.902 0 00.525 3.45C.278 4.086.109 4.813.06 5.877.011 6.944 0 7.284 0 10s.011 3.056.06 4.123c.049 1.064.218 1.791.465 2.427a4.902 4.902 0 001.153 1.772 4.901 4.901 0 001.772 1.153c.636.247 1.363.416 2.427.465 1.067.048 1.407.06 4.123.06s3.056-.012 4.123-.06c1.064-.049 1.791-.218 2.427-.465a4.902 4.902 0 001.772-1.153 4.902 4.902 0 001.153-1.772c.247-.636.416-1.363.465-2.427.048-1.067.06-1.407.06-4.123s-.012-3.056-.06-4.123c-.049-1.064-.218-1.791-.465-2.427a4.901 4.901 0 00-1.153-1.772A4.902 4.902 0 0016.55.525C15.914.278 15.187.109 14.123.06 13.056.012 12.716 0 10 0zm0 1.802c2.67 0 2.986.01 4.04.058.976.045 1.505.208 1.858.344.466.182.8.399 1.15.748.35.35.566.684.748 1.15.137.353.3.882.344 1.857.048 1.055.058 1.37.058 4.041 0 2.67-.01 2.986-.058 4.04-.045.976-.207 1.505-.344 1.858-.182.466-.398.8-.748 1.15-.35.35-.683.566-1.15.748-.353.137-.882.3-1.857.344-1.054.048-1.37.058-4.041.058-2.67 0-2.987-.01-4.04-.058-.976-.045-1.505-.207-1.858-.344a3.098 3.098 0 01-1.15-.748 3.097 3.097 0 01-.748-1.15c-.137-.353-.3-.882-.344-1.857-.048-1.055-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.045-.976.207-1.505.344-1.858.182-.466.399-.8.748-1.15.35-.35.684-.566 1.15-.748.353-.136.882-.3 1.857-.344 1.055-.048 1.37-.058 4.041-.058z"
+                  fill="#616161"
+                ></path>
+              </svg>
+            </div>
+            <div class="burgerMenu__icon">
+              <svg
+                width="20"
+                height="16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class=""
+              >
+                <path
+                  d="M20 1.896a8.406 8.406 0 01-2.356.637A4.06 4.06 0 0019.449.3c-.793.462-1.67.8-2.606.98A4.131 4.131 0 0013.846 0C11.58 0 9.744 1.808 9.744 4.037c0 .317.034.625.106.921A11.695 11.695 0 011.39.738a3.986 3.986 0 00-.555 2.029c0 1.4.725 2.637 1.827 3.362A4.057 4.057 0 01.8 5.625v.05c0 1.958 1.416 3.587 3.293 3.958a4.197 4.197 0 01-1.08.142c-.263 0-.522-.025-.772-.075.521 1.604 2.039 2.77 3.836 2.804A8.317 8.317 0 010 14.175 11.637 11.637 0 006.285 16c7.553 0 11.68-6.154 11.68-11.492 0-.175-.004-.35-.012-.52A8.345 8.345 0 0020 1.895z"
+                  fill="#616161"
+                ></path>
+              </svg>
+            </div>
+          </div>
         </div>
         <div class="menu">
-          <div class="menu__item menu__item--selected">برای شما</div>
-          <div class="menu__item">دسته بندی ها</div>
-          <div class="menu__item">کودک</div>
+          <div class="menu__item menu__item--selected">
+            <a href="http://">برای شما </a>
+          </div>
+          <div class="menu__item"><a href="http://">دسته بندی ها </a></div>
+          <div class="menu__item"><a href="http://"> کودک</a></div>
         </div>
       </div>
     </header>
   </body>
+  <script src="index.js"></script>
 </html>
