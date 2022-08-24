@@ -192,7 +192,11 @@ body {
 
 @media only screen and (min-width: 640px) {}
 
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+    .menu {
+        display: none;
+    }
+}
 
 @media only screen and (min-width: 1440px) {}
 
